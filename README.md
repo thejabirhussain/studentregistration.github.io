@@ -65,7 +65,6 @@ tittle>Student Registration Forum</tittle>
 <form onsubmit = "validform()">
 <label>Enter Your full name</label>
 <input type = "text" name = "full name" placeholder = "enter name"/>
-        <br>
 <label> Gender : </label><br>  
 <input type="radio" name="male"/> Male <br>  
 <input type="radio" name="female"/> Female <br> 
