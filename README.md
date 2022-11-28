@@ -4,7 +4,7 @@
 <html>
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script>
+    <script type="text/javascript" src="validateform.js">
     function validfrom(){
       var fn = document.forms["regform]["fullname"].value;
       var gn = document.forms["regfrom"]["gender"];
