@@ -5,16 +5,23 @@
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script type="text/javascript" src="validateform.js">
+      function callvalue(){
+   var fn = document.getelementbyid("fn").value;
+   var number = document.getelementbyid("number").value;
+   var email = document.getelementbyid("email").value;
+   var pass = document.getelementbyid("pass").value;
+  document.writeln("your full name is:"+fn+"<br>");
+  
     function validfrom(){
       var fn = document.forms["regform]["fullname"].value;
       var gn = document.forms["regfrom"]["gender"];
-       var qa = document.forms["regfrom"]["qualification"];
-       var cu = document.forms["regfrom"]["Course"];
-       var br = document.forms["regfrom"]["Branch"];
-       var sc = document.forms["regfrom"]["Section"];
-       var ph = document.forms["regfrom"]["phone number"].value;
-       var em = document.forms["regfrom"]["Email"].value;
-       var ps = document.forms["regfrom"]["Password"].value;
+      var qa = document.forms["regfrom"]["qualification"];
+      var cu = document.forms["regfrom"]["Course"];
+      var br = document.forms["regfrom"]["Branch"];
+      var sc = document.forms["regfrom"]["Section"];
+      var ph = document.forms["regfrom"]["phone number"].value;
+      var em = document.forms["regfrom"]["Email"].value;
+      var ps = document.forms["regfrom"]["Password"].value;
       }
 if(fn==nul||fn=""){
   alert("full name cannot be blank");
@@ -62,34 +69,34 @@ tittle>Student Registration Forum</tittle>
  <br>
 <body>
 <pre><b>STUDENT Registration Forum</pre></b>
-<form onsubmit = "validform()">
+<form onsubmit = "validform()" onsubmit="callvalue">
 <label>Enter Your full name</label>
-<input type = "text" name = "full name" placeholder = "enter name"/>
+<input type = "text" name = "full name" placeholder = "enter name" id="fn"/>
 <br>
 <label> Gender : </label><br>  
-<input type="radio" name="male"/> Male <br>  
-<input type="radio" name="female"/> Female <br> 
-<input type="radio" name="other"/> Other  
+<input type="radio" name="male"id="mg"/> Male <br>  
+<input type="radio" name="female"id="fg"/> Female <br> 
+<input type="radio" name="other"id="tg"/> Other  
  <br> 
 <label>Qualification</label>
 <br>
-<input type = "radio" name = "Undergraduation"/>Undergraduation<br>
-<input type = "radio" name = "Post graduation"/>Post graduation<br>
-<input type = "radio" name = "Phd"/>PHD<br>
+<input type = "radio" name = "Undergraduation"id="ug"/>Undergraduation<br>
+<input type = "radio" name = "Post graduation"id="pg"/>Post graduation<br>
+<input type = "radio" name = "Phd"id="phd"/>PHD<br>
 <label>Course :</label>  
-<select>  
+<select id="course">  
 <option value="Course">Course</option>  
-<option value="BCA">BCA</option>  
-<option value="BBA">BBA</option>  
-<option value="B.Tech">B.Tech</option>  
-<option value="MBA">MBA</option>  
-<option value="MCA">MCA</option>  
-<option value="M.Tech">M.Tech</option>
-<option value="PHD">PHD</option>
+<option value="BCA"id="bca">BCA</option>  
+<option value="BBA"id="bba">BBA</option>  
+<option value="B.Tech"id="btech">B.Tech</option>  
+<option value="MBA"id="mba">MBA</option>  
+<option value="MCA"id="mca">MCA</option>  
+<option value="M.Tech"id="mtech>M.Tech</option>
+<option value="PHD"id="phd">PHD</option>
 </select>  
 <br>  
 <label>Branch</label>
- <select>  
+ <select id ="branch">  
  <option value="branch">branch</option>  
  <option value="cse">cse</option>  
  <option value="ece">ece</option>  
@@ -101,16 +108,16 @@ tittle>Student Registration Forum</tittle>
  </select> 
      <br>
  <label>Section</label><BR>
- <input type = "radio" name = "A"/>A<br>
- <input type = "radio" name = "B"/>B<br>
- <input type = "radio" name = "C"/>C<br>
- <input type = "radio" name = "D"/>D<br>
+ <input type = "radio" name = "A" id ="as"/>A<br>
+ <input type = "radio" name = "B"id="bs"/>B<br>
+ <input type = "radio" name = "C"id="cs"/>C<br>
+ <input type = "radio" name = "D"id="ds"/>D<br>
  <LABEL>Phone number</label><br>
- <input type = "number" name= "phone" size = 10 placeholder = "Mobile number"/><br>
+ <input type = "number" name= "phone" size = 10 placeholder = "Mobile number"id="number"/><br>
  <LABEL>Email address</label><br>
- <input type = "email" name= "EMAIL" placeholder = "Email"/><br><br>
+ <input type = "email" name= "EMAIL" placeholder = "Email"id="email"/><br><br>
  <LABEL>Password</label><br>
- <input type = "password" name= "password" placeholder = "Password"/><br><br> 
+ <input type = "password" name= "password" placeholder = "Password"id="pass"/><br><br> 
 <button type="submit" VALUE="SUBMIT"> SUBMIT </button>  
 </form>
 </body>
