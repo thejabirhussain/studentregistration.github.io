@@ -63,13 +63,13 @@ input[type=text]:focus, input[type=password]:focus {
  
 </style>  
   
-tittle>Student Registration Forum</tittle>
+<tittle>Student Registration Forum</tittle>
   </head>
   <BR>
  <br>
 <body>
 <pre><b>STUDENT Registration Forum</pre></b>
-<form onsubmit = "validform()","callvalue">
+<form onsubmit = "validform()",onsubmit="callvalue()">
 <label>Enter Your full name</label>
 <input type = "text" name = "full name" placeholder = "enter name" id="fn"/>
 <br>
