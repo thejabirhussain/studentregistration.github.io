@@ -1,4 +1,4 @@
-# studentregistration.github.io
+
 <!--student registration form-->
 <!doctype html>
 <html>
@@ -56,34 +56,30 @@ input[type=text]:focus, input[type=password]:focus {
  
 </style>  
   
-    <tittle>Student Registration Forum</tittle>
+tittle>Student Registration Forum</tittle>
   </head>
-  <body bgcolor="Lightskyblue">
   <BR>
-    <br>
-  <body>
-    <pre><b>STUDENT Registration Forum</pre></b>
-    <form onsubmit = "validform()">
-      <label>Enter Your full name</label>
-      <br>
-      <input type = "text" name = "full name" placeholder = "enter name"/>
+ <br>
+<body>
+<pre><b>STUDENT Registration Forum</pre></b>
+<form onsubmit = "validform()">
+<label>Enter Your full name</label>
+<br>
+<input type = "text" name = "full name" placeholder = "enter name"/>
         <br>
-          <br><label>
-            Gender :  
-    </label><br>  
-     <input type="radio" name="male"/> Male <br>  
-     <input type="radio" name="female"/> Female <br>  
-     <input type="radio" name="other"/> Other  
+        <br>
+<label> Gender : </label><br>  
+<input type="radio" name="male"/> Male <br>  
+<input type="radio" name="female"/> Female <br> 
+<input type="radio" name="other"/> Other  
             <br>  
-             <br>  
-          <label>Qualification</label>
-            <br>
-            <input type = "radio" name = "Undergraduation"/>Undergraduation<br>
-              <input type = "radio" name = "Post graduation"/>Post graduation<br>
-          <input type = "radio" name = "Phd"/>PHD<br><br>
-              <label>   
-Course :  
-</label>   
+            <br>  
+<label>Qualification</label>
+ <br>
+<input type = "radio" name = "Undergraduation"/>Undergraduation<br>
+<input type = "radio" name = "Post graduation"/>Post graduation<br>
+<input type = "radio" name = "Phd"/>PHD<br><br>
+<label>Course :</label>  
 <select>  
 <option value="Course">Course</option>  
 <option value="BCA">BCA</option>  
@@ -92,35 +88,35 @@ Course :
 <option value="MBA">MBA</option>  
 <option value="MCA">MCA</option>  
 <option value="M.Tech">M.Tech</option>
-  <option value="PHD">PHD</option>
+<option value="PHD">PHD</option>
 </select>  
-              <br>
-                <br>
+<br>
+<br>
   
-          <label>Branch</label>
-                  <select>  
-     <option value="branch">branch</option>  
-     <option value="cse">cse</option>  
-     <option value="ece">ece</option>  
-    <option value="eee">eee</option>  
-    <option value="civil">civil</option>  
-   <option value="Mech">Mech</option>  
-   <option value="pure sciences">pure sciences</option>
-   <option value="PHD">PHD</option>
-             </select> 
-                  <br>
-                    <br>
-                      <label>Section</label><BR>
-                      <input type = "radio" name = "A"/>A<br>
-                      <input type = "radio" name = "B"/>B<br>
-                      <input type = "radio" name = "C"/>C<br>
-                      <input type = "radio" name = "D"/>D<br>
-                      <LABEL>Phone number</label><br>
-                      <input type = "text" name= "phone" size = 10 placeholder = "Mobile number"/><br><br>
-                      <LABEL>Email address</label><br>
-                      <input type = "text" name= "EMAIL" placeholder = "Email"/><br><br>
-                      <LABEL>Password</label><br>
-                      <input type = "text" name= "password" placeholder = "Password"/><br><br>
+<label>Branch</label>
+ <select>  
+ <option value="branch">branch</option>  
+ <option value="cse">cse</option>  
+ <option value="ece">ece</option>  
+ <option value="eee">eee</option>  
+ <option value="civil">civil</option>  
+ <option value="Mech">Mech</option>  
+ <option value="pure sciences">pure sciences</option>
+ <option value="PHD">PHD</option>
+ </select> 
+     <br>
+     <br>
+ <label>Section</label><BR>
+ <input type = "radio" name = "A"/>A<br>
+ <input type = "radio" name = "B"/>B<br>
+ <input type = "radio" name = "C"/>C<br>
+ <input type = "radio" name = "D"/>D<br>
+ <LABEL>Phone number</label><br>
+ <input type = "text" name= "phone" size = 10 placeholder = "Mobile number"/><br><br>
+ <LABEL>Email address</label><br>
+ <input type = "text" name= "EMAIL" placeholder = "Email"/><br><br>
+ <LABEL>Password</label><br>
+ <input type = "text" name= "password" placeholder = "Password"/><br><br>
                       </div>   
 <button type="submit" VALUE="SUBMIT"> SUBMIT </button>  
                       </form>
