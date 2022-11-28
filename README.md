@@ -64,21 +64,18 @@ tittle>Student Registration Forum</tittle>
 <pre><b>STUDENT Registration Forum</pre></b>
 <form onsubmit = "validform()">
 <label>Enter Your full name</label>
-<br>
 <input type = "text" name = "full name" placeholder = "enter name"/>
-        <br>
         <br>
 <label> Gender : </label><br>  
 <input type="radio" name="male"/> Male <br>  
 <input type="radio" name="female"/> Female <br> 
 <input type="radio" name="other"/> Other  
-            <br>  
-            <br>  
+            <br> 
 <label>Qualification</label>
  <br>
 <input type = "radio" name = "Undergraduation"/>Undergraduation<br>
 <input type = "radio" name = "Post graduation"/>Post graduation<br>
-<input type = "radio" name = "Phd"/>PHD<br><br>
+<input type = "radio" name = "Phd"/>PHD<br>
 <label>Course :</label>  
 <select>  
 <option value="Course">Course</option>  
@@ -90,9 +87,7 @@ tittle>Student Registration Forum</tittle>
 <option value="M.Tech">M.Tech</option>
 <option value="PHD">PHD</option>
 </select>  
-<br>
-<br>
-  
+<br>  
 <label>Branch</label>
  <select>  
  <option value="branch">branch</option>  
@@ -105,7 +100,6 @@ tittle>Student Registration Forum</tittle>
  <option value="PHD">PHD</option>
  </select> 
      <br>
-     <br>
  <label>Section</label><BR>
  <input type = "radio" name = "A"/>A<br>
  <input type = "radio" name = "B"/>B<br>
@@ -116,12 +110,11 @@ tittle>Student Registration Forum</tittle>
  <LABEL>Email address</label><br>
  <input type = "text" name= "EMAIL" placeholder = "Email"/><br><br>
  <LABEL>Password</label><br>
- <input type = "text" name= "password" placeholder = "Password"/><br><br>
-                      </div>   
+ <input type = "text" name= "password" placeholder = "Password"/><br><br> 
 <button type="submit" VALUE="SUBMIT"> SUBMIT </button>  
                       </form>
-                      </body>
-                      </html>
+</body>
+</html>
                       
                       
                       
