@@ -10,7 +10,7 @@
    var number = document.getelementbyid("number").value;
    var email = document.getelementbyid("email").value;
    var pass = document.getelementbyid("pass").value;
-  document.writeln("your full name is:"+fn+"<br>");
+  document.writeln("your full name is:"+fn+"<br>+"number is:"+numbrer+<br>+"number is:"+number);
   
     function validfrom(){
       var fn = document.forms["regform]["fullname"].value;
