@@ -110,7 +110,7 @@ tittle>Student Registration Forum</tittle>
  <LABEL>Email address</label><br>
  <input type = "text" name= "EMAIL" placeholder = "Email"/><br><br>
  <LABEL>Password</label><br>
- <input type = "text" name= "password" placeholder = "Password"/><br><br> 
+ <input type = "password" name= "password" placeholder = "Password"/><br><br> 
 <button type="submit" VALUE="SUBMIT"> SUBMIT </button>  
 </form>
 </body>
