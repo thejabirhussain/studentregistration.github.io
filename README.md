@@ -113,12 +113,7 @@ tittle>Student Registration Forum</tittle>
  <input type = "text" name= "password" placeholder = "Password"/><br><br> 
 <button type="submit" VALUE="SUBMIT"> SUBMIT </button>  
                       </form>
-</body>
-</html>
-                      
-                      
-                      
-        
+
         
        
   
