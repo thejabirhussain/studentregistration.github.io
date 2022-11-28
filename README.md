@@ -74,25 +74,25 @@ tittle>Student Registration Forum</tittle>
 <input type = "text" name = "full name" placeholder = "enter name" id="fn"/>
 <br>
 <label> Gender : </label><br>  
-<input type="radio" name="male"id="mg"/> Male <br>  
-<input type="radio" name="female"id="fg"/> Female <br> 
-<input type="radio" name="other"id="tg"/> Other  
+<input type="radio" name="male"/> Male <br>  
+<input type="radio" name="female"/> Female <br> 
+<input type="radio" name="other"/> Other  
  <br> 
 <label>Qualification</label>
 <br>
-<input type = "radio" name = "Undergraduation"id="ug"/>Undergraduation<br>
-<input type = "radio" name = "Post graduation"id="pg"/>Post graduation<br>
-<input type = "radio" name = "Phd"id="phd"/>PHD<br>
+<input type = "radio" name = "Undergraduation"/>Undergraduation<br>
+<input type = "radio" name = "Post graduation"/>Post graduation<br>
+<input type = "radio" name = "Phd"/>PHD<br>
 <label>Course :</label>  
 <select id="course">  
 <option value="Course">Course</option>  
-<option value="BCA"id="bca">BCA</option>  
-<option value="BBA"id="bba">BBA</option>  
-<option value="B.Tech"id="btech">B.Tech</option>  
-<option value="MBA"id="mba">MBA</option>  
-<option value="MCA"id="mca">MCA</option>  
-<option value="M.Tech"id="mtech>M.Tech</option>
-<option value="PHD"id="phd">PHD</option>
+<option value="BCA">BCA</option>  
+<option value="BBA">BBA</option>  
+<option value="B.Tech">B.Tech</option>  
+<option value="MBA">MBA</option>  
+<option value="MCA">MCA</option>  
+<option value="M.Tech">M.Tech</option>
+<option value="PHD">PHD</option>
 </select>  
 <br>  
 <label>Branch</label>
@@ -108,16 +108,16 @@ tittle>Student Registration Forum</tittle>
  </select> 
      <br>
  <label>Section</label><BR>
- <input type = "radio" name = "A" id ="as"/>A<br>
- <input type = "radio" name = "B"id="bs"/>B<br>
- <input type = "radio" name = "C"id="cs"/>C<br>
- <input type = "radio" name = "D"id="ds"/>D<br>
+ <input type = "radio" name = "A" />A<br>
+ <input type = "radio" name = "B"/>B<br>
+ <input type = "radio" name = "C"/>C<br>
+ <input type = "radio" name = "D"/>D<br>
  <LABEL>Phone number</label><br>
- <input type = "number" name= "phone" size = 10 placeholder = "Mobile number"id="number"/><br>
+ <input type = "number" name= "phone" size = 10 placeholder = "Mobile number" id="number"/><br>
  <LABEL>Email address</label><br>
- <input type = "email" name= "EMAIL" placeholder = "Email"id="email"/><br><br>
+ <input type = "email" name= "EMAIL" placeholder = "Email" id="email"/><br><br>
  <LABEL>Password</label><br>
- <input type = "password" name= "password" placeholder = "Password"id="pass"/><br><br> 
+ <input type = "password" name= "password" placeholder = "Password" id="pass"/><br><br> 
 <button type="submit" VALUE="SUBMIT"> SUBMIT </button>  
 </form>
 </body>
