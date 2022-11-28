@@ -65,13 +65,14 @@ tittle>Student Registration Forum</tittle>
 <form onsubmit = "validform()">
 <label>Enter Your full name</label>
 <input type = "text" name = "full name" placeholder = "enter name"/>
+<br>
 <label> Gender : </label><br>  
 <input type="radio" name="male"/> Male <br>  
 <input type="radio" name="female"/> Female <br> 
 <input type="radio" name="other"/> Other  
-            <br> 
+ <br> 
 <label>Qualification</label>
- <br>
+<br>
 <input type = "radio" name = "Undergraduation"/>Undergraduation<br>
 <input type = "radio" name = "Post graduation"/>Post graduation<br>
 <input type = "radio" name = "Phd"/>PHD<br>
@@ -105,7 +106,7 @@ tittle>Student Registration Forum</tittle>
  <input type = "radio" name = "C"/>C<br>
  <input type = "radio" name = "D"/>D<br>
  <LABEL>Phone number</label><br>
- <input type = "text" name= "phone" size = 10 placeholder = "Mobile number"/><br><br>
+ <input type = "number" name= "phone" size = 10 placeholder = "Mobile number"/><br>
  <LABEL>Email address</label><br>
  <input type = "text" name= "EMAIL" placeholder = "Email"/><br><br>
  <LABEL>Password</label><br>
