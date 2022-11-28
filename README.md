@@ -69,7 +69,7 @@ tittle>Student Registration Forum</tittle>
  <br>
 <body>
 <pre><b>STUDENT Registration Forum</pre></b>
-<form onsubmit = "validform()" onsubmit="callvalue">
+<form onsubmit = "validform()","callvalue">
 <label>Enter Your full name</label>
 <input type = "text" name = "full name" placeholder = "enter name" id="fn"/>
 <br>
