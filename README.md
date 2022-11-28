@@ -68,7 +68,7 @@ input[type=text]:focus, input[type=password]:focus {
       <br>
       <input type = "text" name = "full name" placeholder = "enter name"/>
         <br>
-          <br>
+          <br><label>
             Gender :  
     </label><br>  
      <input type="radio" name="male"/> Male <br>  
@@ -115,11 +115,11 @@ Course :
                       <input type = "radio" name = "B"/>B<br>
                       <input type = "radio" name = "C"/>C<br>
                       <input type = "radio" name = "D"/>D<br>
-                      <LABEL>Phone number</phone><br>
+                      <LABEL>Phone number</label><br>
                       <input type = "text" name= "phone" size = 10 placeholder = "Mobile number"/><br><br>
-                      <LABEL>Email address</phone><br>
+                      <LABEL>Email address</label><br>
                       <input type = "text" name= "EMAIL" placeholder = "Email"/><br><br>
-                      <LABEL>Password</phone><br>
+                      <LABEL>Password</label><br>
                       <input type = "text" name= "password" placeholder = "Password"/><br><br>
                       </div>   
 <button type="submit" VALUE="SUBMIT"> SUBMIT </button>  
