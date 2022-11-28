@@ -108,7 +108,7 @@ tittle>Student Registration Forum</tittle>
  <LABEL>Phone number</label><br>
  <input type = "number" name= "phone" size = 10 placeholder = "Mobile number"/><br>
  <LABEL>Email address</label><br>
- <input type = "text" name= "EMAIL" placeholder = "Email"/><br><br>
+ <input type = "email" name= "EMAIL" placeholder = "Email"/><br><br>
  <LABEL>Password</label><br>
  <input type = "password" name= "password" placeholder = "Password"/><br><br> 
 <button type="submit" VALUE="SUBMIT"> SUBMIT </button>  
