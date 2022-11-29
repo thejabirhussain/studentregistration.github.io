@@ -6,10 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script type="text/javascript" src="validateform.js">
       function callvalue(){
-   var fn = document.getelementbyid("fn").value;
-   var number = document.getelementbyid("number").value;
-   var email = document.getelementbyid("email").value;
-   var pass = document.getelementbyid("pass").value;
+   var fn = document.getelementbyid("fn").formtarget;
+   var number = document.getelementbyid("number").formtarget;
+   var email = document.getelementbyid("email").formtarget;
+   var pass = document.getelementbyid("pass").frormtarget;
   document.writeln("your full name is:"+fn+"<br>+"number is:"+number+<br>+"email is:"+email);
            }
     function validfrom(){
@@ -69,7 +69,7 @@ input[type=text]:focus, input[type=password]:focus {
  <br>
 <body>
   <pre><b>STUDENT Registration Forum</b></pre>
-<form onsubmit = "return validfrom(),return callvalue()"action = "">
+<form action="/action_page.php" method="get" target="_self">
 <label>Enter Your full name</label>
 <input type = "text" name = "full name" placeholder = "enter name" id="fn"/>
 <br>
@@ -118,7 +118,8 @@ input[type=text]:focus, input[type=password]:focus {
  <input type = "email" name= "EMAIL" placeholder = "Email" id="email"/><br><br>
  <LABEL>Password</label><br>
  <input type = "password" name= "password" placeholder = "Password" id="pass"/><br><br> 
-<button type="submit" VALUE="SUBMIT"> SUBMIT </button>  
+<button type="submit" VALUE="SUBMIT" formtarget="_blank"> SUBMIT </button>
+<button onclick="myFunction()">Try it</button>
 </form>
 </body>
 </html>
