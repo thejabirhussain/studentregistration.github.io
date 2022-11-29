@@ -10,8 +10,8 @@
    var number = document.getelementbyid("number").value;
    var email = document.getelementbyid("email").value;
    var pass = document.getelementbyid("pass").value;
-  document.writeln("your full name is:"+fn+"<br>+"number is:"+numbrer+<br>+"number is:"+number);
-  
+  document.writeln("your full name is:"+fn+"<br>+"number is:"+number+<br>+"email is:"+email);
+ 
     function validfrom(){
       var fn = document.forms["regform]["fullname"].value;
       var gn = document.forms["regfrom"]["gender"];
@@ -69,7 +69,7 @@ input[type=text]:focus, input[type=password]:focus {
  <br>
 <body>
 <pre><b>STUDENT Registration Forum</pre></b>
-<form onsubmit = "validform()","callvalue()">
+<form onsubmit = "validform()",callvalue()">
 <label>Enter Your full name</label>
 <input type = "text" name = "full name" placeholder = "enter name" id="fn"/>
 <br>
