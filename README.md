@@ -68,8 +68,8 @@ input[type=text]:focus, input[type=password]:focus {
   <BR>
  <br>
 <body>
-<pre><b>STUDENT Registration Forum</pre></b>
-<form onsubmit = "validform(),callvalue()">
+<pre><b>STUDENT Registration Forum</b>
+<form onsubmit = "callvalue()">
 <label>Enter Your full name</label>
 <input type = "text" name = "full name" placeholder = "enter name" id="fn"/>
 <br>
