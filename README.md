@@ -11,7 +11,7 @@
    var email = document.getelementbyid("email").value;
    var pass = document.getelementbyid("pass").value;
   document.writeln("your full name is:"+fn+"<br>+"number is:"+number+<br>+"email is:"+email);
- 
+           }
     function validfrom(){
       var fn = document.forms["regform]["fullname"].value;
       var gn = document.forms["regfrom"]["gender"];
