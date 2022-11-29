@@ -117,7 +117,7 @@ input[type=text]:focus, input[type=password]:focus {
  <input type = "email" name= "EMAIL" placeholder = "Email" id="email"/><br><br>
  <LABEL>Password</label><br>
  <input type = "password" name= "password" placeholder = "Password" id="pass"/><br><br> 
-<button type="submit" VALUE="SUBMIT" formtarget="_blank"onclick="myFunction()"> SUBMIT </button>
+<button type="submit" VALUE="SUBMIT" formtarget="_blank" onsubmit="myFunction()"> SUBMIT </button>
 </form>
 </body>
 </html>
